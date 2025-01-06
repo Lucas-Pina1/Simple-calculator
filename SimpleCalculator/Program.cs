@@ -15,26 +15,33 @@ Console.WriteLine("[M]ultiply");
 
 string userOperationChoice = Console.ReadLine();
 
-int result = 0;
+var result = 0;
 
 if (userOperationChoice == "A" || userOperationChoice == "a")
 {
     result = firstNumber + secondNumber;
-    Console.WriteLine(firstNumber + " + " + secondNumber + " = " + result);
+    printFinalResult(firstNumber, secondNumber, result, "+");
 } else if (userOperationChoice == "S" || userOperationChoice == "s")
 {
     result = firstNumber - secondNumber;
-    Console.WriteLine(firstNumber + " - " + secondNumber + " = " + result);
+    printFinalResult(firstNumber, secondNumber, result, "-");
 } else if (userOperationChoice == "M" || userOperationChoice == "m")
 {
     result = firstNumber * secondNumber;
-    Console.WriteLine(firstNumber + " * " + secondNumber + " = " + result);
+    printFinalResult(firstNumber, secondNumber, result, "*");
 } else 
 {
     Console.WriteLine("Invalid option");
 }
 
 Console.WriteLine("Press any key to close");
+
+void printFinalResult(int firstNamber, int secondNumber, int result, string @operator) 
+{
+    Console.WriteLine(firstNumber + " " + @operator + " " + secondNumber + " = " + result);
+}
+
+
 
 Console.ReadKey();
 
