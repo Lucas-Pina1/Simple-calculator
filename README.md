@@ -9,4 +9,4 @@ This application is a simple calculator. The user will input two numbers and the
 
 the requirements for the application is on the link bellow
 
-https://docs.google.com/document/d/1shs_Qxgfxz69_Iyb8XC0rwQe-csrUZEWmty12yddX8Q/edit?tab=t.0#heading=h.ke5jnkhmym6v
+<a href="https://docs.google.com/document/d/1shs_Qxgfxz69_Iyb8XC0rwQe-csrUZEWmty12yddX8Q/edit?tab=t.0#heading=h.ke5jnkhmym6v" target="_blank">Requirements</a>
